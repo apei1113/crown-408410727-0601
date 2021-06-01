@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "123s",
+  "info": {
+    "name": "123"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "cid": {
+      "type": "integer"
+    }
+  }
+}
