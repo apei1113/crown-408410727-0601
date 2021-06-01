@@ -1,13 +1,13 @@
 {
   "routes": [
-    // {
-    //   "method": "GET",
-    //   "path": "/shop/overview",
-    //   "handler": "product.overview",
-    //   "config": {
-    //     "policies": []
-    //   }
-    // },
+    {
+      "method": "GET",
+      "path": "/shop/overview",
+      "handler": "product.overview",
+      "config": {
+        "policies": []
+      }
+    },
     {
       "method": "GET",
       "path": "/shop",
