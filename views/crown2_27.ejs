@@ -12,9 +12,10 @@
         <img src="/assets/crown.svg" />
       </a>
       <div class="options">
-        <a href="/overview.html" class="option">Shop</a>
-        <a href="/shop" class="option">Contact</a>
-        <a href="/signin" class="option">Sign In</a>
+        <a href="/shop" class="option">Shop</a>
+        <a href="/shop/overview" class="option">ShopOverview</a>
+        <a href="#" class="option">Contact</a>
+        <a href="#" class="option">Sign In</a>
         <div class="cart-icon" onclick="cartToggle()">
           <img class="shopping-icon" src="/assets/shopping-bag.svg" alt="" />
         </div>
@@ -50,10 +51,10 @@
           <div class="<%= data[i].size %> menu-item">
             <img
               class="background-image"
-              src="<%= data[i].local_url %>"
+              src="<%= data[i].remote_url %>"
               alt=""
             />
-            <a href="/womens.html" class="content">
+            <a href="<%= data[i].link_url %>" class="content">
               <h1 class="title">"<%= data[i].name.toUpperCase() %></h1>
               <span class="subtitle">SHOP NOW</span>
             </a>
